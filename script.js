@@ -3,15 +3,15 @@ function calculate(){
     displayValue = eval(displayValue);
     document.querySelector('#display').value = displayValue
 
-
 }
+
 function handleConcat(value){
     displayValue+=value;
     document.querySelector('#display').value = displayValue
 }
+
 function clearDisplay(){
-
-    document.querySelector('#display').value = "";
-
-
+    displayValue=""
+    document.querySelector('#display').value = displayValue;
+    
 }
